@@ -60,7 +60,7 @@ h6 {
   top: 0;
   border-radius: 50%;
   background-color: #cf59e6;
-  width: 500px;
+  width: 50%;
   height: 100vh;
   filter: blur(300px);
   opacity: .3;
@@ -154,6 +154,9 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  #about_img{
+    width: 50% !important;
   }
 }
 
@@ -366,8 +369,6 @@ section .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 350px;
-  height: 350px;
 }
 
 .avatar-cutomize {
